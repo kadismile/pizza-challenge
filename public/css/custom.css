@@ -1,0 +1,33 @@
+.addUser__error {
+    color: red;
+    font-size: 11px;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.google_autocomplete {
+    background: #f3f3f3;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 84%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 1px;
+}
+
+.list-search {
+    list-style: none;
+    padding: 6px;
+    border-bottom: 1px solid #efecec;
+    cursor: pointer;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #000000;
+}
