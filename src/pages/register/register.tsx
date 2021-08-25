@@ -183,7 +183,7 @@ export const Register = () => {
                         <input
                           aria-label="phone-input"
                           name="phone_number"
-                          type="number"
+                          type="text"
                           value={formValues.phone_number}
                           onChange={handleChange}
                           placeholder="Phone Number"
